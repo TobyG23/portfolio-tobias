@@ -1,0 +1,159 @@
+/* Estilo base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #0d1117;
+    color: #c9d1d9;
+    display: flex;
+}
+
+aside {
+    width: 220px;
+    background: #161b22;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+}
+
+aside h1 {
+    color: #58a6ff;
+    font-size: 20px;
+}
+
+aside nav a {
+    display: block;
+    color: #c9d1d9;
+    margin: 15px 0;
+    text-decoration: none;
+}
+
+main {
+    margin-left: 240px;
+    padding: 40px;
+    flex: 1;
+}
+
+/* Secciones */
+section {
+    margin-bottom: 40px;
+}
+
+.project, .tech, .work, .admin-panel, .api-sim {
+    background: #21262d;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Botones */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #238636;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Etiquetas de tecnología */
+.tech-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tech-icons span {
+    background: #30363d;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Imágenes del panel admin */
+.admin-images img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Código simulado */
+code {
+    background-color: #161b22;
+    font-family: 'Courier New', monospace;
+    padding: 4px 8px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+pre {
+    background-color: #0d1117;
+    padding: 10px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+/* Footer */
+footer {
+    background: #0d1117;
+    color: #8b949e;
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+.admin-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.img-block {
+    text-align: center;
+}
+
+.img-block img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.img-block img:hover {
+    transform: scale(1.02);
+}
+
+.img-block p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #c9d1d9;
+}
+
+.contacto-box {
+    background-color: #21262d;
+    border-left: 4px solid #58a6ff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contacto-box p {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.contacto-box a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.contacto-box a:hover {
+    text-decoration: underline;
+}
+
